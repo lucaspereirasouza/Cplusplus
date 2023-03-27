@@ -4,16 +4,21 @@
 using namespace 
 
 int main (){
-	int contexto;
+	int movx,movy;
+	char key;
+	system("clear");
+	loop:
 	
-	switch (contexto)
-	{
-	case 1:
-		cout << "teste"
-		break;
-	
-	default:
-
-		break;
+	void movement(){
+		for (int i = 0; i<=movy; i++)
+		{
+			cout << "\n";
+		}
+		for (int i=0;i<=movx;i++)
+			cout << "  ";
+		}
+		cout << "o";
+		goto loop;
 	}
+
 }
