@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include <math.c>
+#include <math.h>
 using namespace 
 
 int main (){
